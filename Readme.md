@@ -80,5 +80,5 @@ Now you can open up the project from vscode. VSCode will actually be running ins
 
 Type `F1` and select `Reopen in container`
 
-![](.assets/picture1.jpg)
+![](./assets/picture1.jpg)
 
