@@ -27,7 +27,7 @@ Clone lemmy down,
 
 `git clone git@github.com:bigOconstant/lemmy-docker-debug.git docker/debug`
 
-Build the image; builds a arch linux container with a suder user name developer
+Build the image; builds a arch linux container with a sudo user name developer
 
 `docker-compose -f docker/debug/docker-compose.yml build`
 
