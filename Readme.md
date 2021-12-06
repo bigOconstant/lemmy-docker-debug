@@ -70,3 +70,15 @@ Bring down the containers
 `docker-compose -f docker/debug/docker-compose.yml down`
 
 
+From the root directory of the lemmy code base, copy the devcontainer and vscode directories from the debug section to the root.
+
+`cp -a docker/debug/devcontainer/ ./.devcontainer`
+
+`cp -a docker/debug/vscode/ ./.vscode`
+
+Now you can open up the project from vscode. VSCode will actually be running inside a arch container.
+
+Type `F1` and select `Reopen in container`
+
+![](.assets/picture1.jpg)
+
