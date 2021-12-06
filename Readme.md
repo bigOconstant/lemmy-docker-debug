@@ -82,7 +82,9 @@ Type `F1` and select `Reopen in container`
 
 ![](./assets/picture1.jpg)
 
-Now you can click run in the debugger on the left. Break points aren't yet working due to async away in the main function. I'm not yet sure how to fix that but the server starts and the terminal in vscode is inside of the container
+Now you can click run in the debugger on the left. Break points aren't yet working due to async await in the main function. I'm not yet sure how to fix that. If someonw knows of how to get that working please open a issue and let me know. However server starts and the terminal in vscode is inside of the container. You can make code changes and click the restart button and it will restart very quickly.
 
 ![](./assets/picture2.jpg)
 
+
+Thats is! You've got rust extensions auto installed in vscode for you. 
