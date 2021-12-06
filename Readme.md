@@ -82,3 +82,7 @@ Type `F1` and select `Reopen in container`
 
 ![](./assets/picture1.jpg)
 
+Now you can click run in the debugger on the left. Break points aren't yet working due to async away in the main function. I'm not yet sure how to fix that but the server starts and the terminal in vscode is inside of the container
+
+![](./assets/picture2.jpg)
+
