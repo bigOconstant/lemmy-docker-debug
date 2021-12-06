@@ -16,7 +16,6 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      target: developer
 
     ports:
       - "8536:8536"
@@ -27,6 +26,9 @@ services:
     volumes:
       - ../lemmy.hjson:/config/config.hjson
       - ../../:/workspace
+    #command: ["cargo","run"]
+    # uncomment the above if you just want to run lemmy as is
+    
 
     depends_on: 
       - pictrs
