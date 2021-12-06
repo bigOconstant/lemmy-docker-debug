@@ -7,7 +7,7 @@ This alternate docker method mounts the lemmy code into a container that install
 
 To get started you need a couple things installed on your machine;
 
-1. [Docker](https://www.docker.com)
+1. [Docker](https://www.docker.com) and [docker-compose](https://docs.docker.com/compose/)
 
 For the ui features; 
 
